@@ -1,0 +1,13 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+}
+h1 {
+    color: #672167;
+}
+.btn-primary {
+    background-color: #f36aae;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #da4e86;
+}
