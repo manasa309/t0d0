@@ -1,13 +1,23 @@
-body {
-    font-family: 'Comic Sans MS', cursive;
+.lily.sway-1 {
+  animation: floatUp 20s linear infinite, swayHorizontal 4s ease-in-out infinite;
 }
-h1 {
-    color: #672167;
+
+.lily.sway-2 {
+  animation: floatUp 25s linear infinite, swayHorizontal 5s ease-in-out infinite;
+  animation-delay: 5s, 5s;
 }
-.btn-primary {
-    background-color: #f36aae;
-    border: none;
+
+.lily.sway-3 {
+  animation: floatUp 22s linear infinite, swayHorizontal 3.5s ease-in-out infinite;
+  animation-delay: 7s, 7s;
 }
-.btn-primary:hover {
-    background-color: #da4e86;
+
+.lily.sway-4 {
+  animation: floatUp 18s linear infinite, swayHorizontal 4.2s ease-in-out infinite;
+  animation-delay: 2s, 2s;
+}
+
+.lily.sway-5 {
+  animation: floatUp 26s linear infinite, swayHorizontal 4.8s ease-in-out infinite;
+  animation-delay: 10s, 10s;
 }
