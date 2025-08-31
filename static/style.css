@@ -1,23 +1,52 @@
-.lily.sway-1 {
-  animation: floatUp 20s linear infinite, swayHorizontal 4s ease-in-out infinite;
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #e6e6fa, #d8bfd8);
+  color: #3b2a4a;
+  margin: 0;
+  padding: 0;
 }
 
-.lily.sway-2 {
-  animation: floatUp 25s linear infinite, swayHorizontal 5s ease-in-out infinite;
-  animation-delay: 5s, 5s;
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #ffffffdd;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(100, 61, 136, 0.2);
 }
 
-.lily.sway-3 {
-  animation: floatUp 22s linear infinite, swayHorizontal 3.5s ease-in-out infinite;
-  animation-delay: 7s, 7s;
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #5d3fd3;
 }
 
-.lily.sway-4 {
-  animation: floatUp 18s linear infinite, swayHorizontal 4.2s ease-in-out infinite;
-  animation-delay: 2s, 2s;
+button {
+  background: #b57edc;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-.lily.sway-5 {
-  animation: floatUp 26s linear infinite, swayHorizontal 4.8s ease-in-out infinite;
-  animation-delay: 10s, 10s;
+button:hover {
+  background: #9370db;
+  transform: scale(1.05);
 }
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f6fc;
+  border-left: 5px solid #b57edc;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.task.high { border-left-color: #7b2cbf; }
+.task.medium { border-left-color: #9d4edd; }
+.task.low { border-left-color: #c77dff; }
